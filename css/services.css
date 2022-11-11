@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.background{
+    height: 80vh;
+    background-color: #e8f4fa;
+    
+
+}
+
+.div1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6%;
+
+}
+
+.heading{
+    padding: 4% 0% 1% 0%;
+    font-size: 2rem;
+
+}
+
+.subtitle{
+    max-width: 22%;
+    text-align: center;
+    color: grey;
+    padding-top: 1%;
+    padding: 0% 0% 3% 0%;
+    
+
+    
+    min-width: 250px;
+
+}
+
+.intro-img{
+    border-radius: 51%;
+}
+
+.services-box{
+    width: 85%;
+    margin-top: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    box-shadow: 0px 4px 114px rgba(0, 0, 0, 0.09);
+
+
+}
+
+.service{
+    display: flex;
+    padding: 4%;
+    width: 41%;
+    padding-left: 5%;
+
+}
+
+.details{
+    padding-left: 3%;
+}
+
+.details p{
+    width: 90%;
+    padding-top: 5%;
+    color: grey;
+
+}
+
+.div2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0%;
+}
+
+
+.left-col{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.right-col{
+    width: 55%;
+
+
+}
+
+
+.heading-div2{
+    padding: 10% 0% 5% 18%;
+    max-width: 500px;
+    font-size: 2rem;
+    min-width: 300px;
+
+
+}
+
+.para-div2{
+    padding: 2% 0% 2% 18%;
+    font-size: 1rem;
+    max-width: 490px;
+    min-width: 300px;
+
+
+
+}
+
+.btn-contact{
+    margin-left: -29%;
+    margin-top: 5%;
+    border-radius: 14%;
+    padding: 8px 50px;
+    border-radius: 8px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid #056282;
+    color: #056282;
+}
+
+
+.btn-contact:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+    background-color: #056282;
+    color: white;
+}
+
+.right-col img{
+    width: 98%;
+
+    /* min-width: 300px; */
+
+
+}
+
+
+.div3-box{
+    width: 100%;
+    background-color: #056282;
+    display: flex;
+    justify-content: space-around;
+}
+
+.highlight{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 23.8%;
+
+    margin: 10% 0%;
+
+
+
+}
+
+.highlight-heading{
+    color: white;
+    font-size: 4.026rem;
+}
+
+.highlight-text{
+    color: white;
+    
+    text-align: center;
+    min-width: 100px;
+}
+
+.div4{
+
+}
+
+.div4-heading{
+    font-size: 2.2rem;
+    padding: 10% 0% 5% 8%;
+    font-weight: 650;
+}
+
+
+.div5{
+    background-color: #E8F4FA;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div5-heading{
+    max-width: 500px;
+    text-align: center;
+    padding: 8% 0% 4% 0%;
+    font-size: 2rem;
+
+
+}
+
+.subscribe-box{
+    border: none;
+    box-shadow: 0px 4px 84px rgb(0 0 0 / 7%);
+    border-radius: 10px;
+    padding: 20px;
+    width: 35%;
+    font-size: 1rem;
+
+
+    min-width: 300px;
+}
+
+.btn-subscribe{
+    margin-left: 3%;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 12%;
+    font-size: 1rem;
+
+    min-width: 120px;
+}
+
+.btn-subscribe:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+    cursor: pointer;
+}
+
+.div5-subscribe-box{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+
+    padding-bottom: 8%;
+}
+
+.div6{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+
+.div6-box1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 6%;
+    margin: 5% 0%;
+    width: 30%;
+
+
+}
+
+.div6-box2{
+    display: flex;
+    flex-direction: column;
+    padding-left: 3%;
+    margin: 5% 0%;
+    width: 25%;
+
+}
+
+.div6-box3{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 0%;
+    width: 25%;
+}
+
+.div6-box4{
+    display: flex;
+    align-items: flex-end;
+    padding-left: 6%;
+    margin: 5% 0%;
+    width: 20%;
+
+}
+
+.div6-box1-text{
+    color: #515151;
+    width: 98%;
+
+}
+
+.fa{
+    padding: 6px;
+    font-size: 30px;
+    width: 17px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100%;
+    box-shadow: 0px 4px 14px rgb(0 0 0 / 15%);
+    color: black;
+    margin: 0% 2%;
+}
+
+hr{
+    color: #D2D2D2;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: black;
+
+}
+
+
+/* -------------------------------------------- */
+.slide-container{
+    margin-left: 10%;
+    margin-right: 0%;
+     width: 100%;
+    
+   }
+   .slide-content{
+     margin: 0 40px;
+     overflow: hidden;
+     border-radius: 25px;
+   }
+   .card{
+     border-radius: 25px;
+     background-color: #FFF;
+     min-width: 400px;
+   }
+   .image-content,
+   .card-content{
+     display: flex;
+     flex-direction: column;
+    
+     padding: 10px 14px;
+   }
+   .image-content{
+     position: relative;
+     row-gap: 5px;
+     padding: 25px 0;
+   }
+
+   .card-image{
+     
+   width: 332px;
+   height: 281px;
+   
+   
+   background: url(.png);
+   border-radius: 14px 14px 0px 0px;
+   
+     background: #FFF;
+     padding: 3px;
+   }
+   .card-image .card-img{
+     height: 100%;
+     width: 100%;
+     object-fit: cover;
+     border-radius: 45px;
+     border: 2px solid rebeccapurple;
+
+    
+     
+   }
+   .name{
+   
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+   
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 1rem;
+   line-height: 210.9%;
+   letter-spacing: 0.01em;
+   
+   
+   color: #6A6A6A;
+   }
+   .description{
+   
+   
+   
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+   font-family: 'Poppins', sans-serif;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.47rem;
+   line-height: 210.9%;
+   width: 80%;
+   letter-spacing: 0.01em;
+   font-weight: 600;
+   
+   
+     
+   }
+   
+   .button:hover{
+     background: #265DF2;
+   }
+   
+   .swiper-navBtn{
+     color: #6E93f7;
+     transition: color 0.3s ease;
+   }
+   .swiper-navBtn:hover{
+     color: #4070F4;
+   }
+   .swiper-navBtn::before,
+   .swiper-navBtn::after{
+     font-size: 35px;
+   }
+   .swiper-button-next{
+     right: 0;
+   }
+   .swiper-button-prev{
+     left: 0;
+   }
+   .swiper-pagination-bullet{
+     background-color: #6E93f7;
+     opacity: 1;
+   }
+   .swiper-pagination-bullet-active{
+     background-color: #4070F4;
+   }
+
+
+@media (max-width:880px){
+    .services-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .service{
+        width: 90%;
+        
+    }
+
+    .details p{
+        width: 100%;
+    
+    }
+}
+
+
+@media (max-width:815px){
+    .div2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heading-div2{
+        font-size: 1.5rem;
+        padding-left: 0%;
+    }
+    .para-div2{
+        font-size: 0.8rem;
+        padding-left: 0%;
+    }
+
+    .btn-contact{
+        margin-left: 0%;
+
+    }
+
+    .right-col{
+        width: 98%;
+    }
+
+    .right-col img{
+        /* width: 90%; */
+    }
+
+    .highlight-heading{
+        font-size: 2.5rem;
+    }
+    
+    .highlight-text{
+        color: white;
+        font-size: 0.8rem;
+    }
+
+    .div6{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:611px){
+
+    .details h3{
+        font-size: 1rem;
+    }
+
+    .details p{
+        font-size: 0.9rem;
+    }
+
+
+    .highlight-heading{
+        font-size: 1.3rem;
+    }
+    
+    .highlight-text{
+        color: white;
+        font-size: 0.6rem;
+    }
+
+    .div4-heading{
+        font-size: 1.7rem;
+    }
+
+    .description{
+        font-size: 1.2rem;
+    }
+
+    .name{
+        font-size: 1rem;
+    }
+
+    .div5-heading{
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .div5-subscribe-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .subscribe-box{
+        width: 70%;
+    }
+
+    .btn-subscribe{
+        margin-top: 5%;
+        width: 30%;
+    }
+
+    .div6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .div6-box1, .div6-box2, .div6-box3, .div6-box4{
+        width: 93%;
+    }
+
+    .div6-box4{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+} 
